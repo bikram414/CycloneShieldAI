@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# Virtual Environment
+venv/
+.venv/
+
+# Node Modules
+node_modules/
+
+# Build
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Datasets
+datasets/

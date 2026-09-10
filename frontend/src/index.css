@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #020617;
+}
+.briefing-box {
+  margin-top: 15px;
+
+  max-height: 350px;
+
+  overflow-y: auto;
+
+  padding: 20px;
+
+  background: rgba(255,255,255,0.05);
+
+  border-radius: 10px;
+
+  line-height: 1.7;
+}
+
+.briefing-box pre {
+  white-space: pre-wrap;
+
+  color: white;
+
+  font-size: 15px;
+
+  font-family: inherit;
+}
